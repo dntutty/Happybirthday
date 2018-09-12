@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textPhone"
+        android:layout_alignBottom="@+id/textPhone"
+        android:layout_centerHorizontal="true"
+        android:text="用户名" />
+
+    <TextView
+        android:id="@+id/textUsercname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textUsername"
+        android:layout_alignBottom="@+id/textUsername"
+        android:layout_marginLeft="34dp"
+        android:layout_toRightOf="@+id/textUsername"
+        android:text="姓名" />
+
+    <TextView
+        android:id="@+id/textPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:text="电话" />
+
+    <TextView
+        android:id="@+id/textBirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="19dp"
+        android:layout_toLeftOf="@+id/textUsername"
+        android:text="生日" />
+
+</RelativeLayout>
